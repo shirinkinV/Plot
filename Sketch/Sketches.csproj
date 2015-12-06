@@ -32,11 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SharpGL">
-      <HintPath>..\..\..\..\GitHubVisualStudio\GraphicsForFunctions\SharpGL.dll</HintPath>
+    <Reference Include="SharpGL, Version=1.99.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SharpGL.dll</HintPath>
     </Reference>
-    <Reference Include="SharpGL.WPF">
-      <HintPath>..\..\..\..\GitHubVisualStudio\GraphicsForFunctions\SharpGL.WPF.dll</HintPath>
+    <Reference Include="SharpGL.WPF, Version=1.99.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SharpGL.WPF.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
